@@ -15,7 +15,7 @@ test("renders the correct child components", () => {
     by the App component in your terminal when you run the tests
   */
 
-  // screen.debug();
+  screen.debug();
 
   expect(container.querySelector("nav")).toBeInTheDocument();
   expect(container.querySelector("#home")).toBeInTheDocument();
